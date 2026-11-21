@@ -1,14 +1,17 @@
 name: Build
 
-# https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#concurrency
-concurrency: 
+# https://docs.github.com/en/actions
+
+permissions:
+  contents: write
+
+concurrency:
   group: "build"
   cancel-in-progress: true
 
 on:
   push:
     branches:
-      # choose your default branch
       - master
       - main
     paths-ignore:
