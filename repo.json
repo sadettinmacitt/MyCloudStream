@@ -1,0 +1,9 @@
+
+{
+  "name": "MyCloudStream",
+  "description": "Kisisel CloudStream Eklenti Deposu",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/sadettinmacitt/MyCloudStream/builds/plugins.json"
+  ]
+}
