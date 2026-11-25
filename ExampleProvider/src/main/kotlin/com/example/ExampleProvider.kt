@@ -1,6 +1,7 @@
 package com.example
 
 import com.lagradost.cloudstream3.*
+import com.lagradost.cloudstream3.utils.ExtractorLink
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 import java.net.URLEncoder
